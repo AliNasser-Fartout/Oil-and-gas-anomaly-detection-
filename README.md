@@ -332,3 +332,7 @@ The points below describe the original implementation as it is. None of them wer
     * The ROC PNGs of the statistical models in Experiments 2 and 3 use the prefix `ROC_NO_NOISY_AND_NO_HYPERPARAMETER_`.
     * The machine learning ROC PNGs of Experiment 1 use `ROC_NO_NOISY_AND_HYPERPARAMETER_`.
     * Run each notebook in its own working directory to avoid overwriting figures.
+
+## Citation
+•	A. N. Ali, S. Buyrukoğlu. "Lightweight Machine Learning and Statistical Learning Models for Oil and Gas." Concurrency and Computation: Practice and Experience, 2026
+https://doi.org/10.1002/cpe.70757
