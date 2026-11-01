@@ -1,0 +1,19 @@
+# Python 3.11 recommended (original runs: Python 3.11.13 on Kaggle).
+# Exact versions of the original runs were not recorded; the ranges below are
+# compatible with the code as written.
+
+numpy
+pandas>=2.2,<3.0          # groupby(...).apply(..., include_groups=False) needs >= 2.2
+pyarrow                   # Parquet reader used by pd.read_parquet(engine="pyarrow")
+scikit-learn>=1.2,<1.7    # LogisticRegression(multi_class=...) is deprecated (sklearn >= 1.5)
+xgboost>=2.0
+matplotlib
+
+# Imported by the notebooks but not used in any computation; required so the
+# original import cells run unchanged.
+lightgbm
+catboost
+optuna
+
+# Notebook runner
+jupyterlab

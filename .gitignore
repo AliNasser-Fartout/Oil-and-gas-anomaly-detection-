@@ -1,0 +1,42 @@
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments -------------------------------------------------
+.venv/
+venv/
+env/
+.conda/
+
+# --- Jupyter --------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Datasets (large; see data/README.md) ---------------------------------
+data/*
+!data/README.md
+*.parquet
+*.csv
+*.zip
+*.gz
+
+# --- Generated figures (written to the working directory when run) --------
+# Remove these rules to publish selected figures in results/.
+*.png
+results/*
+!results/README.md
+
+# --- Kaggle ---------------------------------------------------------------
+kaggle.json
+
+# --- OS / editors ---------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
